@@ -49,4 +49,13 @@
 body {
   background-color: #1a1a1a; /* Very dark gray */
   color: white; /* Set default text color to white for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed; /* Forces the header to stay at the top */
+  top: 0;
+  width: 100%;
+  z-index: 999; /* Ensures it's on top of other elements */
 }
