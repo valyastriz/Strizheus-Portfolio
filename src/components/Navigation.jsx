@@ -5,17 +5,17 @@ const Navigation = () => {
     return (
         <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-            <NavLink className="nav-link" exact to="/">About Me</NavLink>
+            <NavLink className="nav-link" to="/">About Me</NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
             <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
             <NavLink className="nav-link" to="/resume">Resume</NavLink>
-            </li>
+            </li> */}
         </ul>
     );
 };
