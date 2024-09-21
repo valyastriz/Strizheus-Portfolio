@@ -5,7 +5,7 @@ import AboutMe from './components/AboutMe';
 // import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 // import Resume from './components/Resume';
-// import './App.css'; // will decide later is I want to keep this or just use bootsrap
+import './App.css'; // will decide later is I want to keep this or just use bootsrap
 
 function App() {
   return (

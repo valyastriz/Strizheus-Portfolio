@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+
+body {
+  background-color: #1a1a1a; /* Very dark gray */
+  color: white; /* Set default text color to white for contrast */
+}
