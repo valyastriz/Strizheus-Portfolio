@@ -19,3 +19,5 @@ const Navigation = () => {
         </ul>
     );
 };
+
+export default Navigation;
