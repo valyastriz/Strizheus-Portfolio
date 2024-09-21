@@ -41,6 +41,10 @@
   color: #888;
 }
 
+:root {
+  --bs-body-bg: #1a1a1a; /* Override Bootstrap's body background color */
+  --bs-body-color: white; /* Override Bootstrap's text color */
+}
 
 body {
   background-color: #1a1a1a; /* Very dark gray */

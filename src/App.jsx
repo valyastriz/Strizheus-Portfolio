@@ -5,7 +5,8 @@ import AboutMe from './components/AboutMe';
 // import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 // import Resume from './components/Resume';
-import './App.css'; // will decide later is I want to keep this or just use bootsrap
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap styles
+import './App.css'; // Your custom styles should come after
 
 function App() {
   return (
