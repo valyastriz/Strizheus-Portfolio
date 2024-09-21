@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
-// import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 // import Resume from './components/Resume';
 import Footer from './components/Footer'; 
@@ -17,7 +17,7 @@ function App() {
         <main className="container my-3">
           <Routes>
             <Route path="/" element={<AboutMe />} /> {/* Default route */}
-            {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+            <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             {/* <Route path="/resume" element={<Resume />} /> */}
           </Routes>

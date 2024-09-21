@@ -7,9 +7,9 @@ const Navigation = () => {
             <li className="nav-item">
             <NavLink className="nav-link" to="/">About Me</NavLink>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
             <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
-            </li> */}
+            </li>
             <li className="nav-item">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>
