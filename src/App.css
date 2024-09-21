@@ -1,8 +1,14 @@
 #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+}
+
+/* Ensure the main content grows to fill space */
+main {
+  flex-grow: 1; /* Pushes the footer to the bottom */
 }
 
 .logo {
@@ -58,4 +64,21 @@ header {
   top: 0;
   width: 100%;
   z-index: 999; /* Ensures it's on top of other elements */
+}
+
+footer {
+  background-color: #1a1a1a; /* Dark background for footer */
+  padding: 1rem 0;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+footer a {
+  margin: 0 15px; /* Add some space between icons */
+}
+
+footer img, footer svg {
+  display: inline-block;
+  margin: 0; /* Remove default margin */
 }
