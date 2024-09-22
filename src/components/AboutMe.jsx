@@ -11,11 +11,12 @@ const AboutMe = () => {
         <div className="col-md-8">
           <h2>About Me</h2>
           <p>
-          Hey there, I'm Valentina Strizheus, a.k.a. "Valya", and I'm diving headfirst into the world of web development! There's nothing quite like the thrill of seeing lines of code come together to create something awesome. Every project is a chance for me to learn and grow, and I'm all about embracing the challenges that come my way.
+          Hey there, I’m Valentina Strizheus, a.k.a. “Valya,” and I’m not only passionate about coding but also equipped with over 9 years of customer service experience in the transportation and insurance industries. After years of honing my problem-solving and communication skills, I’m excited to be transitioning into a career in full-stack application development.
           </p>
           <p>
-          When I'm not busy coding, you'll find me hanging out with my furry companions. I'm definitely a dog person and love to teach my dogs new tricks! It's amazing how their enthusiasm mirrors my own when I'm diving into the latest web development challenges. Just like teaching them to fetch or roll over, learning new tricks in web development is all about patience, practice, and a sprinkle of creativity. So, whether I'm teaching my pups a new trick or tackling a coding problem, I'm all about embracing the journey and enjoying every step of the way.
+          Having recently completed an intensive bootcamp program, I’ve been immersed in modern web technologies, diving headfirst into the world of web development. There’s nothing quite like seeing lines of code come together to build something meaningful. Whether I’m developing client-side web applications or engineering full-stack solutions, I’m all about tackling challenges, learning, and growing with each project.
           </p>
+          <p>When I’m not busy coding, you’ll likely find me hanging out with my furry companions. I’m a dog person through and through, and I love teaching my pups new tricks. Their enthusiasm mirrors my own when I’m deep in development. Just like teaching them to fetch or roll over, learning new skills in web development is all about patience, practice, and a touch of creativity. Whether I’m coding or training my dogs, I’m all about enjoying the process, embracing the challenges, and celebrating the small victories along the way.</p>
         </div>
       </div>
     </section>
