@@ -13,9 +13,9 @@ const Navigation = () => {
             <li className="nav-item">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
             <NavLink className="nav-link" to="/resume">Resume</NavLink>
-            </li> */}
+            </li>
         </ul>
     );
 };

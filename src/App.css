@@ -48,12 +48,12 @@ main {
 }
 
 :root {
-  --bs-body-bg: #1a1a1a; /* Override Bootstrap's body background color */
+  --bs-body-bg: #1d1c1c; /* Override Bootstrap's body background color */
   --bs-body-color: white; /* Override Bootstrap's text color */
 }
 
 body {
-  background-color: #1a1a1a; /* Very dark gray */
+  background-color: #242424;/* Very dark gray */
   color: white; /* Set default text color to white for contrast */
   margin: 0;
   padding: 0;
@@ -64,10 +64,11 @@ header {
   top: 0;
   width: 100%;
   z-index: 999; /* Ensures it's on top of other elements */
+  background-color: #242424;
 }
 
 footer {
-  background-color: #1a1a1a; /* Dark background for footer */
+  background-color: #242424;
   padding: 1rem 0;
   text-align: center;
   color: white;
@@ -102,4 +103,35 @@ footer img, footer svg {
 
 .btn {
   margin-right: 0.5rem;
+}
+
+/* Resume card specific styling */
+.resume-card {
+  height: auto; /* Allow the card to expand */
+  min-height: 100px; /* Ensure there's enough space for smaller cards */
+  overflow: visible; /* Prevent clipping */
+  margin-bottom: 20px; /* Add some space between cards */
+}
+
+.resume-card .card-body {
+  height: auto; /* Allow the body to expand */
+  min-height: 150px; /* Ensure there's enough space for content */
+  overflow: visible; /* Ensure text is not clipped */
+  padding: 1.5rem; /* Adjust padding as needed */
+}
+
+.resume-card .card-text, 
+.resume-card p {
+  white-space: normal; /* Ensure text breaks into multiple lines */
+  word-wrap: break-word; /* Break long words if necessary */
+  margin-bottom: 1rem; /* Space out paragraphs */
+  flex-grow: 1; /* Allow the text to fill the card */
+}
+
+.resume-card .card-body ul li {
+  margin-bottom: 10px; /* Add some space between list items */
+}
+
+.resume-card p {
+  padding-left: 20px; /* Add space to indent all paragraphs in the resume cards */
 }
