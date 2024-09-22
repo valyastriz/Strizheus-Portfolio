@@ -10,9 +10,9 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/valya-strizheus-b9380a2a2" className="mx-3 text-white" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={30} />
         </a>
-        <a href="/contact" className="mx-3 text-white">
+        <Link to="/contact" className="mx-3 text-white">
           <FaEnvelope size={30} />
-        </a>
+        </Link>
       </footer>
     );
   };
