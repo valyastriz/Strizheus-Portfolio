@@ -3,7 +3,7 @@ import portrait from '../assets/portrait.png';
 
 const AboutMe = () => {
   return (
-    <section className="container my-5">
+    <section className="container my-3">
       <div className="row align-items-center">
         <div className="col-md-4 text-center">
         <img src={portrait} alt="Valya Strizheus" className="rounded-circle mb-4 img-fluid" />
